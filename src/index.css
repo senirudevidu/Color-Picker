@@ -1,23 +1,63 @@
 .App {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  align-items: flex-start;
+  padding: 0 10px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  padding-top: 30px;
-  font-size: 3rem;
+  padding: 30px 20px 20px 20px;
+  font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 800;
+  margin: 0;
 }
 
 body {
   background: linear-gradient(45deg, #141e30, #243b55, #5f2c82);
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+/* Responsive Design for Main Layout */
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 15px;
+    align-items: center;
+  }
+
+  h1 {
+    padding: 20px 15px 15px 15px;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  h1 {
+    padding: 15px 10px 10px 10px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+  }
+}
+
+/* For very wide screens */
+@media (min-width: 1200px) {
+  .App {
+    gap: 30px;
+  }
 }
