@@ -1,4 +1,4 @@
-# Color Picker
+# HueMate - The React Color Picker Tool
 
 A simple and interactive color picker application built with React.js and CSS. This application provides three different methods to select and preview colors.
 
