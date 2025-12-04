@@ -13,9 +13,8 @@ function HexPicker() {
 
   return (
     <div className="picker">
-      <div className="preview" id="previewHex">
-        <p id="errorMsg"></p>
-      </div>
+      <h3>Hex Color Picker</h3>
+      <div className="preview" id="previewHex"></div>
       <div className="hex-input">
         <label>
           Hex

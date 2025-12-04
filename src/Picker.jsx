@@ -42,6 +42,7 @@ function Picker() {
 
   return (
     <div className="picker">
+      <h3>RGB Color Picker</h3>
       <div className="preview" id="preview"></div>
 
       <div className="sliders">

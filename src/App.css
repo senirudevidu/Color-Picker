@@ -22,6 +22,8 @@ label {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  margin-top: 7px;
+  padding: 5px;
 }
 
 #r {
@@ -37,4 +39,14 @@ label {
 #b {
   accent-color: blue;
   transition: 0.25s ease;
+}
+
+input[type="color"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border-radius: 12px;
 }
