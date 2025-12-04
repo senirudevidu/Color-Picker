@@ -1,0 +1,40 @@
+.picker {
+  width: 300px;
+  padding: 16px;
+  background: #111;
+  border-radius: 12px;
+  color: #fff;
+  font-family: poppins, sans-serif;
+}
+
+.preview,
+.previewHex {
+  height: 120px;
+  border-radius: 8px;
+  background: rgb(108, 220, 243);
+  margin-bottom: 12px;
+  height: 150px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#r {
+  accent-color: red;
+  transition: 0.25s ease;
+}
+
+#g {
+  accent-color: green;
+  transition: 0.25s ease;
+}
+
+#b {
+  accent-color: blue;
+  transition: 0.25s ease;
+}
