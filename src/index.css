@@ -4,3 +4,20 @@
   gap: 20px;
   justify-content: center;
 }
+
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding-top: 30px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+body {
+  background: linear-gradient(45deg, #141e30, #243b55, #5f2c82);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}

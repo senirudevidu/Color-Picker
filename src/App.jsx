@@ -5,11 +5,14 @@ import OnsitePicker from "./OnsitePicker.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <Picker />
-      <HexPicker />
-      <OnsitePicker />
-    </div>
+    <>
+      <h1>Color Pickers</h1>
+      <div className="App">
+        <Picker />
+        <HexPicker />
+        <OnsitePicker />
+      </div>
+    </>
   );
 }
 
